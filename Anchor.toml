@@ -1,0 +1,12 @@
+[programs.localnet]
+tokens = "FLFDkdHZEw1st49GdwRrbALdN6b59FtcQijcTVFQtr1K"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/rohith/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
